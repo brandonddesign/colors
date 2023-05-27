@@ -1,0 +1,20 @@
+body {
+  margin: 2rem auto;
+}
+.palettes-collection {
+  width: 70%;
+  margin: 0 auto;
+}
+.palettes-collection h1 {
+  margin-bottom: 2rem;
+}
+.palette {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.footer {
+  text-align: center;
+  margin: 2rem auto;
+}
