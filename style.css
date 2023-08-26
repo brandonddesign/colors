@@ -4,7 +4,7 @@ body {
 }
 
 .palettes-collection {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ body {
 .palette {
   position: relative;
   display: inline-block;
-  width: calc(18% - 0.5rem);
+  width: calc(16% - 0.25rem);
   margin: 0.5rem;
   padding: 1.5rem 1rem;
   border-radius: 0;
