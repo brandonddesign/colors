@@ -1,20 +1,85 @@
 body {
   margin: 2rem auto;
+  font-family: Arial, sans-serif;
 }
+
 .palettes-collection {
   width: 70%;
   margin: 0 auto;
 }
+
 .palettes-collection h1 {
   margin-bottom: 2rem;
+  margin-left: 0.25rem;
+  font-weight: 600;
 }
+
 .palette {
+  position: relative;
   display: inline-block;
+  width: calc(18% - 0.5rem);
   margin: 0.5rem;
   padding: 1.5rem 1rem;
-  border-radius: 5px;
+  border-radius: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease-in-out;
 }
+
+.palette:hover {
+  transform: translateY(-5px);
+}
+
+.palette div {
+  color: var(--text-color);
+}
+
 .footer {
   text-align: center;
   margin: 2rem auto;
+}
+.hex-values-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hex-color {
+  height: 100%;
+  width: 50%;
+}
+
+.primary-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color {
+  background-color: var(--secondary-color);
+}
+.copied-alert {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .palettes-collection {
+    width: 100%;
+  }
+
+  .palette {
+    width: calc(31% - 0.5rem); /* For 2 palettes per row */
+  }
 }
