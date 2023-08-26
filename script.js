@@ -115,8 +115,11 @@ const colorPalettes = [
   { primary: '#F2DDBC', secondary: '#FF67B9' },
   { primary: '#F2DDBC', secondary: '#FAAD58' },
   { primary: '#FF8B8B', secondary: '#9C2525' },
-  { primary: '#579AE9', secondary: '#D52CFB' },
-  { primary: '#033F7D', secondary: '#00A273' }
+  { primary: '#3B5998', secondary: '#49BFB3' },
+  { primary: '#033F7D', secondary: '#00A273' },
+  { primary: '#FF4f81', secondary: '#FFC168' },
+  { primary: '#008374', secondary: '#333333' },
+  { primary: '#444444', secondary: '#4DC47D' }
 ];
 
 // Create a function to generate the color palette HTML
