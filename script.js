@@ -51,8 +51,8 @@
     function generatePaletteHTML(palette) {
       return `
         <div class="palette" style="background-color: ${palette.primary}; color: ${palette.secondary};">
-          <div>${palette.primary}</div>
-          <div>${palette.secondary}</div>
+          <div><strong>Primary:</strong> ${palette.primary}</div>
+          <div><strong>Secondary:</strong> ${palette.secondary}</div>
         </div>
       `;
     }
