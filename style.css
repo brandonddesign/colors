@@ -53,6 +53,7 @@ body {
 .hex-color {
   height: 100%;
   width: 50%;
+  cursor: pointer;
 }
 
 .primary-color {
