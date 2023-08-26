@@ -11,7 +11,7 @@ body {
 .palette {
   display: inline-block;
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 5px;
 }
 .footer {
