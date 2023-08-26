@@ -13,6 +13,7 @@ body {
   margin: 0.5rem;
   padding: 1.5rem 1rem;
   border-radius: 5px;
+  font-weight: 700;
 }
 .footer {
   text-align: center;
