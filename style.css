@@ -3,7 +3,7 @@ body {
 }
 .palettes-collection {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 -1rem;
 }
 .palettes-collection h1 {
   margin-bottom: 2rem;
@@ -13,7 +13,6 @@ body {
   margin: 0.5rem;
   padding: 1.5rem 1rem;
   border-radius: 5px;
-  font-weight: 700;
 }
 .footer {
   text-align: center;
